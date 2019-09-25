@@ -1,4 +1,7 @@
-var tafel6 = prompt ("Tafel van 6")
-var x = 3
-van y = 6;
-var z = x * y;
+var vraag1 = prompt("Wilt u een pizza bestellen?")
+var vraag2 = prompt("small medium of large?")
+var vraag3 = prompt("hoeveel?")
+const SMALL = 4;
+const MEDIUM = 7;
+const LARGE = 10;
+document.write (vraag2+" "+"pizza x "+ " "+vraag3)
