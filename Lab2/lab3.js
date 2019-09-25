@@ -1,0 +1,1 @@
+var tafel6 = prompt ("Tafel van 6")
