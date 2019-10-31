@@ -5,9 +5,9 @@ var largeAmount = parseInt(prompt("Hoeveel large pizza's wilt u?"))
 const SMALLPRICE = 4;
 const MEDIUMPRICE = 7;
 const LARGEPRICE = 10;
-const TOTALSMALL =SMALLPRICE*smallAmount;
-const TOTALMEDIUM =MEDIUMPRICE*mediumAmount;
-const TOTALLARGE =LARGEPRICE*largeAmount;
+var TOTALSMALL =SMALLPRICE*smallAmount;
+var TOTALMEDIUM =MEDIUMPRICE*mediumAmount;
+var TOTALLARGE =LARGEPRICE*largeAmount;
 
 
 document.write ("small pizza's" + " "+smallAmount+" " + "met een prijs van"+ " " +smallAmount*SMALLPRICE+"<br>")
